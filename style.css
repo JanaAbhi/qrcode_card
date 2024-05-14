@@ -27,9 +27,14 @@ body {
   margin: 50px auto;
 }
 img {
-  max-width: 100%;
+  max-width:100%;
   border-radius: 20px;
+  transition: transform 0.1s;
 }
+img:hover{
+  transform:scale(1.06)
+}
+
 .card {
   font-family: "outfit", sans-serif;
   margin-top: 20px;
@@ -60,19 +65,5 @@ a:active{
   color: chartreuse;
 }
 
-/* @media screen and (max-width: 500px) {
-    body{
-        height: 80vh;
-    }
-  .scene {
-    margin-top: 40%;
-    width: 90%;
-    height: auto;
-  }
-  img {
-    width: 100%;
-    margin: auto;
-  }
-} */
 
 
